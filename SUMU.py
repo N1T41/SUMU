@@ -135,7 +135,7 @@ def back():
 #LOGO
 def banner():
 	clear()
-     print('')
+     masud(f'''\t
 banner = """
   \033[0;93m ██████  ██  ██████  ██████ ██   ██ ██ 
   \033[0;93m ██   ██ ██ ██      ██      ██   ██ ██ 

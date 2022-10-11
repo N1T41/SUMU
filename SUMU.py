@@ -135,8 +135,7 @@ def back():
 #LOGO
 def banner():
     import os
-os.system('clear')
-  banner = """
+os.system('clear') 
   \033[0;93m ██████  ██  ██████  ██████ ██   ██ ██ 
   \033[0;93m ██   ██ ██ ██      ██      ██   ██ ██ 
   \033[0;92m ██████  ██ ██      ██      ███████ ██ 

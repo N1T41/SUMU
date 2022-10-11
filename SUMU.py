@@ -204,7 +204,7 @@ def menu(my_name,my_id):
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	print('\033[1;32m┌────────────────────────────────────────────┐') 
-	print("\033[1;92m│         \033[1;96mUSER ACCOUNT INFORMATION\033[1;92m           │")
+	print("\033[1;92m│          \033[1;96mUSER ACCOUNT INFORMATION\033[1;92m          │")
 	print('\033[1;32m└────────────────────────────────────────────┘')
 	print('\033[1;32m┌────────────────────────────────────────────┐') 
 	print(f"{P} [{H}•{P}] Your IP   : {ip}")

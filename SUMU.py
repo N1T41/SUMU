@@ -204,9 +204,11 @@ def menu(my_name,my_id):
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	print(f" {BM}LOGIN INFO{N}")
+	print('\033[1;32m┌────────────────────────────────────────────┐') 
 	print(f"{P} [{H}•{P}] Your IP   : {ip}")
 	print(f"{P} [{H}•{P}] NAME      : {my_name}")
 	print(f"{P} [{H}•{P}] Your ID   : {my_id}")
+	print('\033[1;32m└────────────────────────────────────────────┘')
 	print("%s══════════════════════════════════════════"%(N))
 	print(f" {BM}OPTION MENU{N}")
 	print(' [%s01%s] Public Friends (%sON%s)'%(H,N,H,N));time.sleep(0.03)

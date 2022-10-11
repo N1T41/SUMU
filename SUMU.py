@@ -203,7 +203,7 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	print("\033[1;92m\t│ \033[0;31m[]\033[0;31m\033[1;92mUSER IMFORMATION\033[1;92m\033[0;31m[]\033[0;31m│")
+	print("\033[1;92m\t│ \033[0;31m[]\033[0;31m\033[1;92mUSER IMFORMATION\033[1;92m\033[0;31m[]│")
 	print('\033[1;32m┌────────────────────────────────────────────┐') 
 	print(f"{P} [{H}•{P}] Your IP   : {ip}")
 	print(f"{P} [{H}•{P}] NAME      : {my_name}")

@@ -211,7 +211,7 @@ def menu(my_name,my_id):
 	print(f"{P}\033[1;92m│[{H}•{P}\033[1;92m]\033[1;92m ACCOUNT NAME : {my_name}\033[1;92m          │")
 	print(f"{P}\033[1;92m│[{H}•{P}\033[1;92m]\033[1;92m ACCOUNT USER : {my_id}\033[1;92m          │")
 	print('\033[1;32m└────────────────────────────────────────────┘')
-	print('                     MAIN MENU')
+	print('                  MAIN MENU')
 	print(' [%s01%s] Public Friends (%sON%s)'%(H,N,H,N));time.sleep(0.03)
 	print(' [%s02%s] Random ID Massal (%sON%s)'%(H,N,H,N));time.sleep(0.03)
 	print(' [%s03%s] Crack From Files (%sON%s)'%(H,N,H,N));time.sleep(0.03)

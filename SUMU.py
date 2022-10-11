@@ -136,7 +136,6 @@ def back():
 def banner():
     import os
 os.system('clear')
-    print("""
   banner = """
   \033[0;93m ██████  ██  ██████  ██████ ██   ██ ██ 
   \033[0;93m ██   ██ ██ ██      ██      ██   ██ ██ 

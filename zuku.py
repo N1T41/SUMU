@@ -864,8 +864,6 @@ def main_apv():
     if key1 in r1:
         login()
     else:
-        os.system("clear")
-        os.system('xdg-open https://youtube.com/')
         logo()
         print ("[*]--------------------------------------------------------------")
         print ("  Your Token Is Not Approved Already")

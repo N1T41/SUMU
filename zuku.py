@@ -867,8 +867,8 @@ def main_apv():
         print('       %s》%s》%s》%sTHIS TOOL IS PAID%s《%s《%s《'%(M,H,B,H,B,H,M))
         print ("")
         print ("          YOUR KEY : "+ak+key1)
-        print("\033[0;93m   TOOL PRICE : %s300BDT "%(H))
-	print("\033[0;93m    VALIDITY : %s4 Weeks"%(H))
+        print("\033[0;93m   VALIDITY : %s4 Weeks"%(H))
+	print("\033[0;93m   TOOL PRICE : %s300BDT "%(H))
         time.sleep(3.5)
         os.system("xdg-open https://wa.me/+923089085973")
 if __name__=='__main__':

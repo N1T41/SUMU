@@ -854,8 +854,7 @@ def main_apv():
         kok.close()
         print ("")
         print ("")
-        print ("     Copy Key And Sent Me WhatsApp Approvel Your Key ")
-        print ("[*]--------------------------------------------------------------")
+        print("\033[0;93m    TOOL PRICE : %sBDT300"%(H))
         time.sleep(6)
         
         os.system("xdg-open https://wa.me/+923089085973")
@@ -875,8 +874,7 @@ def main_apv():
         print ("")
         print ("          YOUR KEY : "+ak+key1)
         print ("[*]--------------------------------------------------------------")
-        print ("     Copy Key And Sent Me WP Approvel Your Key ")
-        print ("[*]--------------------------------------------------------------")
+        print("\033[0;93m    TOOL PRICE : %sBDT300"%(H))
         time.sleep(3.5)
         os.system("xdg-open https://wa.me/+923089085973")
 if __name__=='__main__':

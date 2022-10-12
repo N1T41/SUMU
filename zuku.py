@@ -872,9 +872,8 @@ def main_apv():
         print ("")
         
         print ("[*]--------------------------------------------------------------")
-        print ("     Copy Key And Sent Me WP Approvel Your Key ")
+        print("\033[0;93m    VALIDITY : %s4 Weeks"%(H))
         print("\033[0;93m   TOOL PRICE : %s150 "%(H))
-	print("\033[0;93m   VALIDITY : %s1 month"%(H))
         time.sleep(3.5)
         os.system("xdg-open https://wa.me/+923089085973")
 if __name__=='__main__':

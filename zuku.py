@@ -897,4 +897,4 @@ if __name__=='__main__':
 	try:os.system('pkg install play-audio')
 	except:pass
 	Subscraption()
- Subscraption()   
+ Subscraption()

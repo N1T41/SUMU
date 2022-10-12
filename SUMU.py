@@ -165,7 +165,7 @@ def login():
 		login_lagi334()
 def login_lagi334():
 	os.system('clear')
-	banner()
+	logo()
 	warna = random.choice([
 P, M, H, K, B, U, O, N])
 	cookie=input(f'%s[%s√%s]%s Enter fresh Cookie : '%(P,H,P,H))

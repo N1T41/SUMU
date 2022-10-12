@@ -131,17 +131,24 @@ def clear():
 # BACK
 def back():
 	login()
-# BANNER
-def banner():
-	clear()
-	alvino_xy(f'''\t{asu} ______                                              
-\t|_   _ \                                             
-\t  | |_) | _ .--.  ,--.   ____   ____  .---.  _ .--.  
-\t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
-\t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
-\t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-			{m}•{k}•{h}•{sir} Author : Alvino_Adijaya {x}{m}•{k}•{h}•{x}''')
-
+# LOGO
+def logo():
+    print(f"""{M}
+ ███╗   ███╗███████╗████████╗ █████╗
+ ████╗ ████║██╔════╝╚══██╔══╝██╔══██╗
+ ██╔████╔██║█████╗     ██║   ███████║
+ ██║╚██╔╝██║██╔══╝     ██║   ██╔══██║
+ ██║ ╚═╝ ██║███████╗   ██║   ██║  ██║
+ ╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝\n{N} ▌│█║▌║▌║META FACEBOOK METHOD║▌║▌║█│▌{N} """)
+    print("╔════════════════════════════════════════╗")
+    print(f"║{P}[{H}•{P}] Author    : Sholeh_ars            {N}║")
+    print(f"║{P}[{H}•{P}] Whatsapp  : privasi         {N}║")
+    print(f"║{P}[{H}•{P}] Github    : github.com/premium.py{N}  ║")
+    print(f"║{P}[{H}•{P}] SC Status : Gratis rasa {H}Premium{P}     {N}║")
+    print(f"║{P}[{H}•{P}] Support   : 32 & 64              {N}║")
+    print(f"║{P}[{H}•{P}] Network   : {H}IM3{N}, {H}AXIS/XL/TSEL{N}, {H}3{N}         ║")
+    print(f"║{P}[{H}•{P}] SC Version: V-1.1({K}META ars {P})            {N}║")
+    print("╚════════════════════════════════════════╝")
 #LOGIN
 def login():
 	try:

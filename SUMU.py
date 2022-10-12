@@ -209,7 +209,7 @@ def menu(my_name,my_id):
 		time.sleep(5)
 		login_lagi334()
 	os.system('clear')
-	banner()
+	logo()
 	ip = requests.get("https://api.ipify.org").text
 	print('\033[1;32m┌────────────────────────────────────────────┐') 
 	print("\033[1;92m│          \033[1;96mUSER ACCOUNT INFORMATION\033[1;92m          │")

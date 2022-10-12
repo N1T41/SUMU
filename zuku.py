@@ -854,8 +854,9 @@ def main_apv():
         kok.close()
         print ("")
         print ("")
-        print("\033[0;93m    TOOL PRICE : %sBDT300"%(H))
-        time.sleep(6)
+        print("\033[0;93m   TOOL PRICE : %s150 "%(H))
+        print("\033[0;93m   VALIDITY : %s1 month"%(H))
+	time.sleep(6)
         
         os.system("xdg-open https://wa.me/+923089085973")
         
@@ -874,8 +875,9 @@ def main_apv():
         print ("")
         print ("          YOUR KEY : "+ak+key1)
         print ("[*]--------------------------------------------------------------")
-        print("\033[0;93m    TOOL PRICE : %sBDT300"%(H))
-        time.sleep(3.5)
+        print("\033[0;93m    TOOL PRICE : %sRs150"%(H))
+        print("\033[0;93m    VALIDITY : %s4 Weeks"%(H))
+	time.sleep(3.5)
         os.system("xdg-open https://wa.me/+923089085973")
 if __name__=='__main__':
 	os.system('clear');loading()

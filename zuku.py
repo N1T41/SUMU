@@ -865,8 +865,7 @@ def main_apv():
         login()
     else:
         logo()
-        print ("[*]--------------------------------------------------------------")
-        print ("  Your Token Is Not Approved Already")
+        print('       %s》%s》%s》%sTHIS TOOL IS PAID%s《%s《%s《'%(M,H,B,H,B,H,M))
         print ("[*]--------------------------------------------------------------")
         print ("          THIS IS YOUR KEY BRO")
         print ("[*]--------------------------------------------------------------")

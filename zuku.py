@@ -838,7 +838,7 @@ def main_apv():
     os.system('xdg-open https://www.Facebook.com/')
     try:
     
-        key1=open('/data/data/com.termux/files/usr/bin/.mrTALHA-cov', 'r').read()
+        key1=open('/data/data/com.termux/files/usr/bin/.llvm-cov', 'r').read()
     except IOError:
         os.system("clear")
         logo()

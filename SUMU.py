@@ -134,16 +134,13 @@ def back():
 # BANNER
 def banner():
 	clear()
-	wel='# WELCOME TO FACEBOOK CRACK TOOL'
-	cik2=mark(wel ,style='cyan')
-	sol().print(cik2)
-	ban='''
-•   AUTHOR  : AOREC-XD WHATSAPP : 087872739899  •
-•   _____ _______  ____________________         •
-•   __  // /__   |/  /__  __ )__  ____/         •
-•   _  // /__  /|_/ /__  __  |_  /_             •
-•   /__  __/  /  / / _  /_/ /_  __/             •
-•     /_/  /_/  /_/  /_____/ /_/ VERSION 4.0.4  •
+	alvino_xy(f'''\t{asu} ______                                              
+\t|_   _ \                                             
+\t  | |_) | _ .--.  ,--.   ____   ____  .---.  _ .--.  
+\t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
+\t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
+\t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
+			{m}•{k}•{h}•{sir} Author : Alvino_Adijaya {x}{m}•{k}•{h}•{x}''')
 
 #LOGIN
 def login():

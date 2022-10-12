@@ -133,7 +133,7 @@ def back():
 	login()
 ########## GAMBAR MEMEQ#########
 def banner():
-	print("""
+	print("\n
 \033[1;32m┌────────────────────────────────────────────────┐
 \033[1;32m│\033[1;31m➣\033[1;37m AUTHOR  \033[1;31m:\033[1;32m PSYCHO PICCHI│\033[1;37m• \033[1;36mTHIS TOOL IS PAID \033[1;37m•\033[1;32m │
 \033[1;32m│\033[1;31m➣\033[1;37m FACEBOOK\033[1;31m:\033[1;32m PSYCHO PICCHI│\033[1;37m• \033[1;36mONLY BD PACKAGE   \033[1;37m• \033[1;32m│

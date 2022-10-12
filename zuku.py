@@ -874,8 +874,9 @@ def main_apv():
         print ("          YOUR KEY : "+ak+key1)
         print ("[*]--------------------------------------------------------------")
         print("\033[0;93m    TOOL PRICE : %sRs150"%(H))
-	time.sleep(3.5)
-        os.system("xdg-open https://wa.me/+923089085973")
+        time.sleep(3.5)
+        
+	os.system("xdg-open https://wa.me/+923089085973")
 if __name__=='__main__':
 	os.system('clear');loading()
 	try:os.system('git pull')

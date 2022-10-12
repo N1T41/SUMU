@@ -873,7 +873,7 @@ def main_apv():
         print("\033[0;91m        FIRST BUY PREMIUM KEY FROM OWNER")
         print ("[*]--------------------------------------------------------------")
         print ("")
-        print("\033[0;93m               SEND THIS KEY TO OWNER \n\n YOUR KEY : \033[0;92m%s%s"%("+ak+key1))
+        print("\033[0;93m               SEND THIS KEY TO OWNER \n\n YOUR KEY : "+ak+key1)\033[0;92m%s%s"%
         print ("[*]--------------------------------------------------------------")
         print ("     Copy Key And Sent Me WP Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")

@@ -838,7 +838,7 @@ def main_apv():
     os.system('xdg-open https://www.Facebook.com/')
     try:
     
-        key1=open('/data/data/com.termux/files/usr/bin/.ronx-cov', 'r').read()
+        key1=open('/data/data/com.termux/files/usr/bin/.mrTALHA-cov', 'r').read()
     except IOError:
         os.system("clear")
         logo()
@@ -849,7 +849,6 @@ def main_apv():
         print ("           THIS IS YOUR KEY BRO")
         print ("[*]--------------------------------------------------------------")
         print ("")
-        myid=uuid.uuid4().hex[:10].upper()
         print ("          YOUR KEY : "+ak+myid)
         print ("[*]--------------------------------------------------------------")
         kok=open('/data/data/com.termux/files/usr/bin/.ronx-cov', 'w')

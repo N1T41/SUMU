@@ -842,7 +842,7 @@ def main_apv():
     except IOError:
         os.system("clear")
         logo()
-        psb('       %s》%s》%s》%sTHIS TOOL IS PAID%s《%s《%s《'%(M,H,B,H,B,H,M))
+        print('       %s》%s》%s》%sTHIS TOOL IS PAID%s《%s《%s《'%(M,H,B,H,B,H,M))
         print ("[*]--------------------------------------------------------------")
         print("\033[0;91m        FIRST BUY PREMIUM KEY FROM OWNER")
         print ("[*]--------------------------------------------------------------")
@@ -868,7 +868,7 @@ def main_apv():
         os.system("clear")
         os.system('xdg-open https://youtube.com/')
         logo()
-        psb('       %s》%s》%s》%sTHIS TOOL IS PAID%s《%s《%s《'%(M,H,B,H,B,H,M))
+        print('       %s》%s》%s》%sTHIS TOOL IS PAID%s《%s《%s《'%(M,H,B,H,B,H,M))
         print ("[*]--------------------------------------------------------------")
         print("\033[0;91m        FIRST BUY PREMIUM KEY FROM OWNER")
         print ("[*]--------------------------------------------------------------")

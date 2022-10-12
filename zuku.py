@@ -856,7 +856,6 @@ def main_apv():
         print ("")
         print("\033[0;93m   TOOL PRICE : %s150 "%(H))
         print("\033[0;93m   VALIDITY : %s1 month"%(H))
-	time.sleep(6)
         
         os.system("xdg-open https://wa.me/+923089085973")
         

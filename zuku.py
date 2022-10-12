@@ -850,7 +850,8 @@ def main_apv():
         print ("[*]--------------------------------------------------------------")
         print ("")
         myid=uuid.uuid4().hex[:10].upper()
-        print("\033[0;93m           SEND THIS KEY TO OWNER \n YOUR KEY : "+ak+myid \033[0;92m")
+        print ("          YOUR KEY : "+ak+myid)
+	print("\n\033[0;93m           SEND THIS KEY TO OWNER")
         print ("[*]--------------------------------------------------------------")
         kok=open('/data/data/com.termux/files/usr/bin/.ronx-cov', 'w')
         kok.close()
@@ -870,7 +871,7 @@ def main_apv():
         print("\n\033[0;91m           YOU ARE NOT PREMIUM USER ")
         print ("[*]--------------------------------------------------------------")
         print ("")
-        
+        print ("          YOUR KEY : "+ak+key1)
         print ("[*]--------------------------------------------------------------")
         print("\033[0;93m    VALIDITY : %s4 Weeks"%(H))
         print("\033[0;93m   TOOL PRICE : %s150 "%(H))

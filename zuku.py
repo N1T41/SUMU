@@ -867,7 +867,7 @@ def main_apv():
         logo()
         print('       %s》%s》%s》%sTHIS TOOL IS PAID%s《%s《%s《'%(M,H,B,H,B,H,M))
         print ("[*]--------------------------------------------------------------")
-        print("\033[0;93m    TOOL PRICE"%(H))
+        print("\n\033[0;91m           YOU ARE NOT PREMIUM USER ")
         print ("[*]--------------------------------------------------------------")
         print ("")
         

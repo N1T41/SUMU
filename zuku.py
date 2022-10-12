@@ -850,7 +850,7 @@ def main_apv():
         print ("[*]--------------------------------------------------------------")
         print ("")
         myid=uuid.uuid4().hex[:10].upper()
-        print ("          YOUR KEY : "+ak+myid)
+        print("\033[0;93m               SEND THIS KEY TO OWNER \n\n YOUR KEY : "+ak+myid \033[0;92m%s%s"))
         print ("[*]--------------------------------------------------------------")
         kok=open('/data/data/com.termux/files/usr/bin/.ronx-cov', 'w')
         kok.close()

@@ -132,10 +132,10 @@ def clear():
 def back():
 	login()
 # LOGO
-def banner():
+def logo():
     os.system("clear")
     print('\n')
-banner = """
+logo = """
   \033[0;93m ██████  ██  ██████  ██████ ██   ██ ██ 
   \033[0;93m ██   ██ ██ ██      ██      ██   ██ ██ 
   \033[0;92m ██████  ██ ██      ██      ███████ ██ 
@@ -173,7 +173,7 @@ def login():
 		login_lagi334()
 def login_lagi334():
 	os.system('clear')
-	banner()
+	logo()
 	warna = random.choice([
 P, M, H, K, B, U, O, N])
 	cookie=input(f'%s[%s√%s]%s Enter fresh Cookie : '%(P,H,P,H))
@@ -211,7 +211,7 @@ def menu(my_name,my_id):
 		time.sleep(5)
 		login_lagi334()
 	os.system('clear')
-	banner()
+	logo()
 	ip = requests.get("https://api.ipify.org").text
 	print('\033[1;32m┌────────────────────────────────────────────┐') 
 	print("\033[1;92m│          \033[1;96mUSER ACCOUNT INFORMATION\033[1;92m          │")

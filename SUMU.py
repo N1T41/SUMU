@@ -132,7 +132,7 @@ def clear():
 def back():
 	login()
 # LOGO
-def logo():
+def banner():
     os.system("clear")
     print('\n')
 banner = """
@@ -173,7 +173,7 @@ def login():
 		login_lagi334()
 def login_lagi334():
 	os.system('clear')
-	logo()
+	banner()
 	warna = random.choice([
 P, M, H, K, B, U, O, N])
 	cookie=input(f'%s[%s√%s]%s Enter fresh Cookie : '%(P,H,P,H))

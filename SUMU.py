@@ -131,49 +131,6 @@ def clear():
 # BACK
 def back():
 	login()
-#LOGIN SC
-user = "rohman"
-pwas ="rohman"
-def cek_pw():
-    try:
-        open(".ini_pw.txt", "r").read()
-    except FileNotFoundError:
-        os.system("clear")
-        logo()
-        print(' [%s!%s] Pilih nomer 2 jika ada yang memperjual\n belikan SC META. SC ini %sGRATIS%s'%(M,N,H,N))
-        print('\n %s%sOPTION MENU%s'%(BM,P,N))
-        print(' [%s1%s] Already have SC Login Info'%(H,N))
-        print(' [%s2%s] Send a message to the Author'%(H,N))
-        pil = input('\n %s[%s?%s] Choice : '%(N,K,N))
-        if pil =="":
-            jalan(f" {N}[{M}×{N}] Sorry, it is wrong...!");time.sleep(1);cek_pw()
-        elif pil in["2","02"]:
-            jalan("\n %s[%s•%s] %sYou will be redirected to the Author Whatsapp..."%(N,H,N,H));time.sleep(0.02)
-            os.system('xdg-open https://wa.me/01889879311?text=Hallo+izin+menggunakan+SC+ini');time.sleep(2);cek_pw()
-        elif pil in["1","01"]:
-            print('%s══════════════════════════════════════════'%(N))
-            print(' %s[%s!%s] You must have a %susername & password%s to\n continue with this tool!'%(N,M,N,H,N))
-        else:
-            exit(f"{N}[{M}×{N}] Sorry, it is wrong...!")
-        #print(" %s[%s!%s] You must have a %susername & password%s to continue with this tool!"%(N,M,N,K,N))
-        pw = input("\n %s[%s?%s] Enter Username : %s"%(N,K,N,H))
-        loading()
-        if pw in [""]:
-            jalan(" %s[%s!%s] Sorry don't be blank!"%(N,M,N));time.sleep(1);cek_pw()
-        elif pw in user:
-            jalan(" %s[%s✓%s] OK Username is correct"%(N,H,N));time.sleep(1);kska()
-        else:
-            jalan(" %s[%s!%s] Sorry, wrong username"%(N,M,N));time.sleep(1);cek_pw()
-    moch_yayan()
-def kska():
-    xx = input("\n %s[%s?%s] Enter Password : %s"%(N,K,N,H))
-    loading()
-    if xx in[""]:
-        jalan(" %s[%s!%s] Sorry don't be blank!"%(N,M,N));time.sleep(1);cek_pw()
-    elif xx in pwas:
-        jalan(" %s[%s✓%s] OK Password is correct"%(N,H,N));time.sleep(2);open(".ini_pw.txt", "a").write(xx);moch_yayan()
-    else:
-        jalan(" %s[%s!%s] Sorry, wrong Password"%(N,M,N));time.sleep(1);cek_pw()
 #LOGO
 def banner():
 	clear()

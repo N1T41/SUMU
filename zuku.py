@@ -832,7 +832,7 @@ def cek_opsi():
 def main_apv():
     os.system('clear')
     
-    ak="3x"
+    ak="FIRE-"
     logo()
     #apni id ke link dal lo 
     os.system('xdg-open https://www.Facebook.com/')

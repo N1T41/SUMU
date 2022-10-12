@@ -144,10 +144,7 @@ def banner():
 •   _  // /__  /|_/ /__  __  |_  /_             •
 •   /__  __/  /  / / _  /_/ /_  __/             •
 •     /_/  /_/  /_/  /_____/ /_/ VERSION 4.0.4  •
-•                                               •
-•   GITHUB : HTTPS://GITHUB.COM/AOREC-XD/4MBF   •'''
-	oi = nel(tekz(ban,justify='center',style='bold'), style='cyan')
-	cetak(nel(oi, title='[bold cyan] • DEVELOVER INFORMATION • [/bold cyan]'))
+
 #LOGIN
 def login():
 	try:

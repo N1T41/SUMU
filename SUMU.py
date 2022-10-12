@@ -131,15 +131,26 @@ def clear():
 # BACK
 def back():
 	login()
-#LOGO
-def banner():
-	clear()
-	print("""%s   
-𝙏𝙀𝘿𝘿𝙔 𝘾𝘼𝙃𝙔𝙊 𝙋𝙐𝙏𝙍𝘼 𝙋𝘼𝙉𝙂𝙀𝙈𝘽𝘼𝙍𝘼\n𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙈𝙀𝙉𝙏 𝘾𝙍𝘼𝘾𝙆𝙄𝙉𝙂 𝘼𝙉𝘿 𝘾𝙇𝙊𝙉𝙀 \n𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 𝙈𝙀𝙏𝘼𝙑𝙀𝙍𝙎 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼.%s
-(+) SUPPORT ALL SIM CARD%s
-(-) TIDAK SUPPORT WI-FI%s
-[✓] SCRIP INI GRATIS\n JANGAN PERJUAL BELIKAN,\n SALING BERBAGI AJAH FILE\n SC INI YAH KONTOL !
-"""%(M,P,M,H))
+def jalan(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.01)
+ 
+logo =                                          """   
+   \033[1;37m ######      ######     ########  
+   \033[1;37m##    ##    ##    ##    ##     ## 
+   \033[1;37m##          ##          ##     ## 
+   \033[1;37m ######      ######     ########  
+   \033[1;37m     b ##          ##    ##     ## 
+   \033[1;37m##    ##    ##    ##    ##     ## 
+   \033[1;37m ######      ######     ########  
+\x1b[1;97m------------------------\x1b[1;97m------------------------
+\033[1;31m\033[1;37m Author \x1b[1;97m : \033[1;37m           Sarfraz Baloch
+\033[1;31m\033[1;37m Facebook\x1b[1;97m:  \033[1;37m          Sarfraz Baloch
+\033[1;31m\033[1;37m GitHub\x1b[1;97m  : \033[1;37m           Sarfraz-Ssb
+\033[1;31m\033[1;37m Version\x1b[1;97m : \033[1;37m             6.0.0
+\033[1;37m------------------------\033[1;37m------------------------ """
 #LOGIN
 def login():
 	try:

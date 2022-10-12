@@ -131,10 +131,17 @@ def clear():
 # BACK
 def back():
 	login()
-# LOGO
-def logo():
-    os.system("clear")
-    print('\n')
+#------------------[ LOGO-LAKNAT ]-----------------#
+def banner():
+	clear()
+	sol()
+	ban=''' © Brute forse Facebook account
+▄▄▄▄· ▄▄▄  ▄• ▄▌▄▄▄▄▄▄▄▄ .    ·▄▄▄▄▄▄▄· ©   
+▐█ ▀█▪▀▄ █·█▪██▌•██  ▀▄.▀·    ▐▄▄·▐█ ▀█▪. Author :Naufal Arky
+▐█▀▀█▄▐▀▀▄ █▌▐█▌ ▐█.▪▐▀▀▪▄    ██▪ ▐█▀▀█▄. 
+██▄▪▐█▐█•█▌▐█▄█▌ ▐█▌·▐█▄▄▌    ██▌.██▄▪▐█. Status : premium
+·▀▀▀▀ .▀  ▀ ▀▀▀  ▀▀▀  ▀▀▀     ▀▀▀ ·▀▀▀▀ '''
+	cetak(nel(ban, style='blue'))
 logo = """
   \033[0;93m ██████  ██  ██████  ██████ ██   ██ ██ 
   \033[0;93m ██   ██ ██ ██      ██      ██   ██ ██ 

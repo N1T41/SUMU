@@ -866,7 +866,7 @@ def main_apv():
         print ('\x1b[92;1m\tYOUR KEY IS NOT APPROVED\n')
         print('\r        TOOL PRICE 300TK | 1 MONTH\n')
         print ("        YOUR KEY : "+ak+key1)
-        print ("     Copy Key And Sent Me WP Approvel Your Key ")
+        print('\n  IF PAYMENT IS SUCCESSFUL SEND YOUR KEY...\n')
         print ("[*]--------------------------------------------------------------")
         time.sleep(3.5)
         

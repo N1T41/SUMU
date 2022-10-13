@@ -868,7 +868,7 @@ def main_apv():
         print ("  YOUR KEY : "+ak+key1)
         print('\n  IF PAYMENT IS SUCCESSFUL SEND YOUR KEY...\n')
         print("\x1b[1;91m  NOTE : FREE USERS DON'T COME INBOX...")
-        time.sleep(6)
+        time.sleep(3.5)
         
         os.system("xdg-open https://wa.me/+923089085973")
         

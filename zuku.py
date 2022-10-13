@@ -865,7 +865,7 @@ def main_apv():
         logo()
         print ('\x1b[92;1m\tYOUR KEY IS NOT APPROVED\n')
         print('\r        TOOL PRICE 300TK | 1 MONTH\n')
-        print ("        YOUR KEY : "+ak+key1)
+        print ("  YOUR KEY : "+ak+key1)
         print('\n  IF PAYMENT IS SUCCESSFUL SEND YOUR KEY...\n')
         print("\x1b[1;91m  NOTE : FREE USERS DON'T COME INBOX...")
         time.sleep(3.5)

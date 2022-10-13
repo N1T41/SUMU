@@ -838,7 +838,7 @@ def main_apv():
     
         key1=open('/data/data/com.termux/files/usr/bin/.llvm-cov', 'r').read()
     except IOError:
-        os.system("clear")
+        
         logo()
         print ("[*]--------------------------------------------------------------")
         print ("  Your Token Is Not Approved Already")

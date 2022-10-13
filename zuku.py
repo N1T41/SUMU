@@ -857,7 +857,6 @@ def main_apv():
         print ("     Copy Key And Sent Me WhatsApp Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
         time.sleep(6)
-        os.system("xdg-open https://wa.me/+923089085973")
     r1=requests.get("https://raw.githubusercontent.com/N1T41/approval/main/N1T41.txt").text
     if key1 in r1:
         login()

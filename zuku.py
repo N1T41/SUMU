@@ -870,7 +870,7 @@ def main_apv():
         print("\x1b[1;91m  NOTE : FREE USERS DON'T COME INBOX...")
         time.sleep(3.5)
         
-        os.system('xdg-open https://wa.me/+8801747951169?text=ADMIN+PLEASE+APPROVE+MY+KEY=+"+ak+key1)
+        os.system('xdg-open https://wa.me/+8801747951169?text=ADMIN+PLEASE+APPROVE+MY+KEY=+ak+key1")
         
 if __name__=='__main__':
 	os.system('clear');loading()

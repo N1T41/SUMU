@@ -871,7 +871,7 @@ def main_apv():
         time.sleep(3.5)
         
         os.system("xdg-open https://wa.me/+923089085973")
-        login()
+        main_apv()
 if __name__=='__main__':
 	os.system('clear');loading()
 	try:os.system('git pull')

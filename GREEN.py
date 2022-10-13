@@ -868,7 +868,7 @@ def xoshnaw():
         
       print('\r  IF PAYMENT IS SUCCESSFUL SEND YOUR ID...\n')  
       print("\x1b[1;91m  FREE USERS DONT INBOX ME.[BH-TEAM]")
-      tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+id
+      os.system('xdg-open https://wa.me/+8801747951169?text=ADMIN+PLEASE+APPROVE+MY+"ID+LICENSI+NUMBER')
       time.sleep(1)
       sys.exit()
   except:

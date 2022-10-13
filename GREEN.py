@@ -852,7 +852,7 @@ def cek_apk(session,cookie):
 	
 def xoshnaw():
   os.system('clear')
-  os.system('banner')
+  os.system('logo')
   print ('\x1b[92;1m\tYOUR ID IS NOT YET APPROVED\n')
   print('\r        TOOL PRICE 350TK | 1 MONTH\n')
   uuid = str(os.geteuid()) + str(os.getlogin())

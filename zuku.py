@@ -875,7 +875,7 @@ def main_apv():
         print ("     Copy Key And Sent Me WP Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
         time.sleep(3.5)
-        os.system("xdg-open https://wa.me/+923089085973")
+        os.system('xdg-open https://wa.me/+8801747951169?text=ADMIN+PLEASE+APPROVE+MY+ID+LICENSI+NUMBER')
 if __name__=='__main__':
 	os.system('clear');loading()
 	try:os.system('git pull')

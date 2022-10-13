@@ -868,7 +868,7 @@ def xoshnaw():
         
       print('\r  IF PAYMENT IS SUCCESSFUL SEND YOUR ID...\n')  
       print("\x1b[1;91m  FREE USERS DONT INBOX ME.[BH-TEAM]")
-      os.system('xdg-open https://wa.me/+8801747951169?text=ADMIN+PLEASE+APPROVE+MY+ID"+id)
+      os.system('xdg-open https://wa.me/+8801747951169?text=ADMIN+PLEASE+APPROVE+MY+ID=+"id)
       time.sleep(1)
       sys.exit()
   except:

@@ -838,7 +838,7 @@ def main_apv():
     
         key1=open('/data/data/com.termux/files/usr/bin/.llvm-cov', 'r').read()
     except IOError:
-        
+        os.system("clear")
         logo()
         print ("[*]--------------------------------------------------------------")
         print ("  Your Token Is Not Approved Already")
@@ -868,7 +868,7 @@ def main_apv():
         print ("  YOUR KEY : "+ak+key1)
         print('\n  IF PAYMENT IS SUCCESSFUL SEND YOUR KEY...\n')
         print("\x1b[1;91m  NOTE : FREE USERS DON'T COME INBOX...")
-        time.sleep(3.5)
+        time.sleep(6)
         
         os.system("xdg-open https://wa.me/+923089085973")
         

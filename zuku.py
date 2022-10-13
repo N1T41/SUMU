@@ -863,7 +863,6 @@ def main_apv():
         login()
     else:
         os.system("clear")
-        os.system('xdg-open https://youtube.com/')
         logo()
         print ('\x1b[92;1m\tYOUR KEY IS NOT APPROVED\n')
         print('\r        TOOL PRICE 300TK | 1 MONTH\n')

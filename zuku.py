@@ -834,8 +834,6 @@ def main_apv():
     
     ak="FIRE-"
     logo()
-    #apni id ke link dal lo 
-    os.system('xdg-open https://www.Facebook.com/')
     try:
     
         key1=open('/data/data/com.termux/files/usr/bin/.llvm-cov', 'r').read()

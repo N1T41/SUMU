@@ -170,7 +170,7 @@ def reg():
         print ('\tApproved Failed')
         print (' \x1b[1;92mYour Id Is Not Approved Already ')
         print (' \x1b[1;92mCopy token id and send to Owner')
-        print (' \x1b[1;92mYour id: ' + to ')
+        print (' \x1b[1;92mYour id: ' + to
         raw_input('\x1b[1;93m Press enter to send id')
         os.system('xdg-open https://wa.me/+923458630524')
         reg()

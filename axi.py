@@ -167,10 +167,10 @@ def reg():
     else:
         os.system('clear')
         print (logo)
-        print '\tApproved Failed'
-        print ' \x1b[1;92mYour Id Is Not Approved Already '
-        print ' \x1b[1;92mCopy token id and send to Owner'
-        print ' \x1b[1;92mYour id: ' + to
+        print ('\tApproved Failed')
+        print (' \x1b[1;92mYour Id Is Not Approved Already ')
+        print (' \x1b[1;92mCopy token id and send to Owner')
+        print (' \x1b[1;92mYour id: ' + to ')
         raw_input('\x1b[1;93m Press enter to send id')
         os.system('xdg-open https://wa.me/+923458630524')
         reg()
@@ -178,12 +178,12 @@ def reg():
  
 def reg2():
     os.system('clear')
-    print logo
-    print '\tApproval not detected'
-    print ' \x1b[1;92mCopy and press enter , And Send Me'
+    print (logo)
+    print ('\tApproval not detected')
+    print (' \x1b[1;92mCopy and press enter , And Send Me')
     id = uuid.uuid4().hex[:50]
-    print ' Your id: ' + id
-    print ''
+    print (' Your id: ' + id ')
+    print ('')
     raw_input(' Press enter to go to whatsapp ')
     os.system('xdg-open https://wa.me/03105194032')
     sav = open('/sdcard/.hst.txt', 'w')
@@ -195,8 +195,8 @@ def reg2():
  
 def ip():
     os.system('clear')
-    print logo
-    print '\tCollecting device info'
+    print (logo)
+    print ('\tCollecting device info')
     
     try:
         ipinfo = requests.get('http://ip-api.com/json/')

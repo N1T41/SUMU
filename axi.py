@@ -7,7 +7,7 @@ import marshal
 try:
     import requests
 except ImportError:
-    print '\n [\xc3\x97] The requests module is not installed!...\n'
+    print ('\n [\xc3\x97] The requests module is not installed!...\n')
     os.system('pip2 install requests')
  
  

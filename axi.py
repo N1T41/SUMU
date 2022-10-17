@@ -166,7 +166,7 @@ def reg():
         ip()
     else:
         os.system('clear')
-        print logo
+        print (logo)
         print '\tApproved Failed'
         print ' \x1b[1;92mYour Id Is Not Approved Already '
         print ' \x1b[1;92mCopy token id and send to Owner'

@@ -146,9 +146,9 @@ def reg():
     jalan('  SUBSCRIPTION FOR ONE MONTH ')
     jalan('  TOOL UPDATE EVERY SEVEN DAY ')
     jalan('  BY BY BY BY BY ')
-    print (''
+    print ('')
     print '\x1b[1;31;1m FAST CLONING '
-    print ''
+    print ('')
     time.sleep(1)
     
     try:

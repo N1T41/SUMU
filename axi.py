@@ -136,7 +136,7 @@ logo = '\n\x1b[1;91m     ___      ___   ___  __          \n\x1b[1;92m    /   \\ 
  
 def reg():
     os.system('clear')
-    print logo
+    print (logo)
     jalan('  This is Paid command  :) thank you')
     jalan('  PAY ONLY 600 FOR 1 MONTH  :) thank you')
     jalan('  FIRST SEND SCREENSHORT WITH TOKEN ON WHATSAPP ')

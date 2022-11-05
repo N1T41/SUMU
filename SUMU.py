@@ -212,10 +212,10 @@ def menu(my_name,my_id):
 	logo()
 	ip = requests.get("https://api.ipify.org").text
 	print('\033[1;32m┌────────────────────────────────────────────┐') 
-	print("\033[1;92m│          \033[1;96mUSER ACCOUNT INFORMATION\033[1;92m          │")
+	print("\033[1;92m│          \033[1;96mUser Account Information\033[1;92m          │")
 	print('\033[1;32m└────────────────────────────────────────────┘')
 	print('\033[1;32m┌────────────────────────────────────────────┐') 
-	print(f"{P}\033[1;92m│[{H}•{P}\033[1;92m]\033[1;92m IP ADDRESS   : {ip}\033[1;92m           │")
+	print(f"{P}\033[1;92m│[{H}•{P}\033[1;92m]\033[1;92m IP ADDRESS   : {ip}\033[1;92m            │")
 	print(f"{P}\033[1;92m│[{H}•{P}\033[1;92m]\033[1;92m ACCOUNT NAME : {my_name}\033[1;92m               │")
 	print(f"{P}\033[1;92m│[{H}•{P}\033[1;92m]\033[1;92m ACCOUNT USER : {my_id}\033[1;92m          │")
 	print('\033[1;32m└────────────────────────────────────────────┘')

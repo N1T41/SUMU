@@ -123,9 +123,9 @@ def clear():
 def back():
 	login()
 # LOGO
-def banner():
-	clear()
-	masud(f'''\t
+def logo():
+    os.system("clear")
+    print("""\n
                      
 \033[1;31m     ___  ___  ____  ________ _________  ____
 \033[1;35m    / _ )/ _ \/ __ \/_  __/ // / __/ _ \/ __/

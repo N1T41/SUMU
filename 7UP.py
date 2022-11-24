@@ -202,7 +202,7 @@ def menu(my_name,my_id):
 		print("%s[%s✔%s]%s Region :%s -"%(H,P,H,P,K))
 		print("%s[%s✔%s]%s Ip :%s -"%(H,P,H,P,K))
 	print('\n    [\033[1;97m\033[1;41m  OPTION MENU   \033[0m\033[1;93m]\n')
-	print('   %s[%s1%s]%s PUBLIC %sCRACKER %s[%sON%s]'%(P,H,P,H,P,H,P))	
+	print('   %s[%s1%s]%s PUBLIC %sCRACKER%s %s[%sON%s]'%(P,H,P,H,P,H,P))	
 	print('   %s[%sA%s]%s CONTACT %s[%sOwner%s]'%(P,H,P,H,P,H,P))
 	print('   %s[%sB%s]%s EXIT %s[%sOut%s]'%(P,H,P,H,P,H,P))
 	MRBX = input('   %s[%s?%s]%s select menu %s : '%(N,H,N,H,M))

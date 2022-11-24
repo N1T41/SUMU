@@ -171,7 +171,7 @@ def login_c():
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1))
 		cok=open(".cok.txt", "w").write(cookie)
-		print('   %s[%s✔%s]%s Login successful run again \033[1;97m\033[1;41m python GREEN-FIRE.py \033[0m\033[1;93m'%(N,H,N,H));time.sleep(1)
+		print('  %s[%s√%s]%s Login Successful Run Again...'%(P,H,P,H));time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")

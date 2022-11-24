@@ -191,18 +191,18 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	print('        \n    [\033[1;97m\033[1;41m  LOGIN INFO   \033[0m\033[1;93m]\n')
-	print("   \x1b[1;92m[\x1b[0m✔\x1b[1;92m] \x1b[0m Your ID : "+str(my_id)) 
-	print("   \x1b[1;92m[\x1b[0m✔\x1b[1;92m] \x1b[0m Name    : "+str(my_name))
+	print("   \x1b[1;92m[\x1b[0m√\x1b[1;92m] \x1b[0m Your ID : "+str(my_id)) 
+	print("   \x1b[1;92m[\x1b[0m√\x1b[1;92m] \x1b[0m Name    : "+str(my_name))
 	try:
 		gep = requests.get('http://ipinfo.io/json').json()
 		print("   %s[%s✔%s]%s  Region  :%s %s"%(H,P,H,P,K,gep['region']))
 		print("   %s[%s✔%s]%s  Ip      :%s %s\n"%(H,P,H,P,K,gep['ip']))
 	
 	except:
-		print("%s[%s✔%s]%s Region :%s -"%(H,P,H,P,K))
-		print("%s[%s✔%s]%s Ip :%s -"%(H,P,H,P,K))
+		print("%s[%s√%s]%s Region :%s -"%(H,P,H,P,K))
+		print("%s[%s√%s]%s Ip :%s -"%(H,P,H,P,K))
 	print('\n    [\033[1;97m\033[1;41m  OPTION MENU   \033[0m\033[1;93m]\n')
-	print('   %s[%s1%s]%s PUBLIC %sCRACKER%s %s[%sON%s]'%(P,H,P,H,P,H,P))	
+	print('   %s[%s1%s]%s PUBLIC CRACKER %s[%sON%s]'%(P,H,P,H,P,H,P))	
 	print('   %s[%sA%s]%s CONTACT %s[%sOwner%s]'%(P,H,P,H,P,H,P))
 	print('   %s[%sB%s]%s EXIT %s[%sOut%s]'%(P,H,P,H,P,H,P))
 	MRBX = input('   %s[%s?%s]%s select menu %s : '%(N,H,N,H,M))
